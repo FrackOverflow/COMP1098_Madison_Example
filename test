@@ -17,7 +17,5 @@ namespace COMP2084_InClass_W4.Data
         {
             optionsBuilder.UseSqlServer("Your connection string");
         }
-
-        public DbSet<COMP2084_InClass_W4.Models.Car> Car { get; set; }
     }
 }
